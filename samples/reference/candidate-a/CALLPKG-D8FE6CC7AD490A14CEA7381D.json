@@ -1,0 +1,132 @@
+{
+  "package_id": "CALLPKG-D8FE6CC7AD490A14CEA7381D",
+  "request_id": "CALLREQ-D8FE6CC7AD490A14CEA7381D",
+  "job_id": "JOB-D6E8FFAD9230996A",
+  "job_version": 1,
+  "job_package_id": "JOBPKG-EF06F886F8E80DE7218F9080",
+  "cv_id": "CV-D8FE6CC7AD490A14CEA7381D",
+  "generated_at": "2026-11-12T10:17:48.785Z",
+  "template_version": "R1-call-v3",
+  "candidate_summary": [
+    {
+      "line": 2,
+      "page": null,
+      "text": "工作经历：参与企业知识库产品项目，协助整理访谈记录和业务需求，归纳用户反馈并补充需求清单。",
+      "verification": "CV自述，尚待电话核对"
+    },
+    {
+      "line": 3,
+      "page": null,
+      "text": "项目经历：配合产品负责人核对上线检查项，协助测试人员记录问题并跟进发布进度。",
+      "verification": "CV自述，尚待电话核对"
+    },
+    {
+      "line": 4,
+      "page": null,
+      "text": "技能：在同事指导下使用SQL检查知识条目的缺失值和重复记录。需求方案和上线验收由产品负责人签字确认。",
+      "verification": "CV自述，尚待电话核对"
+    }
+  ],
+  "requirements": [
+    {
+      "level": "hard",
+      "text": "必须独立负责需求分析与上线验收",
+      "index": 0,
+      "status": "clarify",
+      "evidence": {
+        "line": 4,
+        "page": null,
+        "text": "技能：在同事指导下使用SQL检查知识条目的缺失值和重复记录。需求方案和上线验收由产品负责人签字确认。"
+      },
+      "verification": "尚待电话核对",
+      "question": "简历提到相关经历。您亲自完成了哪些工作，哪些由他人决策或确认？请举例说明自己的责任范围。"
+    },
+    {
+      "level": "preferred",
+      "text": "有SQL经验优先",
+      "index": 1,
+      "status": "clarify",
+      "evidence": {
+        "line": 4,
+        "page": null,
+        "text": "技能：在同事指导下使用SQL检查知识条目的缺失值和重复记录。需求方案和上线验收由产品负责人签字确认。"
+      },
+      "verification": "尚待电话核对",
+      "question": "关于“有SQL经验优先”，请结合简历这段经历说明具体任务、时间、个人责任和结果。"
+    }
+  ],
+  "call_outline": {
+    "contact_reason": "围绕企业知识库产品经理核对简历中的相关工作经历",
+    "opening": "您好，我想就一个企业知识库产品经理机会与您沟通，方便用十分钟核对相关经历和求职安排吗？",
+    "recruiter_supplied_job": {
+      "title": "企业知识库产品经理",
+      "company": null,
+      "company_industry": null,
+      "location": "北京",
+      "salary_text": null,
+      "source_references": [
+        {
+          "message_id": "local-D6E8FFAD9230996A",
+          "sent_at": "1794478621594"
+        }
+      ]
+    },
+    "priority_questions": [
+      {
+        "question": "简历提到相关经历。您亲自完成了哪些工作，哪些由他人决策或确认？请举例说明自己的责任范围。",
+        "purpose": "简历提到相关工作，需确认个人责任范围是否支持硬性要求“必须独立负责需求分析与上线验收”。",
+        "verification_criteria": "记录候选人亲自交付的工作、能独立决定的事项，以及谁作最终决策或验收。若仅参与或协助，按实际范围记录。",
+        "requirement_index": 0
+      },
+      {
+        "question": "您目前考虑机会时最关注哪些岗位条件？",
+        "purpose": "了解求职意向，核对岗位待确认事项。",
+        "verification_criteria": "请候选人区分必需条件和偏好，并把需要招聘方另行确认的事项单独记下。"
+      },
+      {
+        "question": "如愿意继续沟通，您的地点偏好、可沟通时间及到岗安排如何？",
+        "purpose": "确认后续联系和工作安排。",
+        "verification_criteria": "复述候选人确认的地点、后续沟通时段和预计到岗时间，仍未确定的安排留待确认。"
+      }
+    ],
+    "expected_result": "记录候选人对岗位相关经历的补充、求职意向及后续安排，供人工判断。"
+  },
+  "risks": {
+    "job_pending": [
+      "公司",
+      "招聘方行业",
+      "部门",
+      "薪资范围",
+      "薪资周期或币种",
+      "薪资月数",
+      "经验要求",
+      "学历要求"
+    ],
+    "cv_clarifications": [
+      {
+        "kind": "scope_unclear",
+        "evidence": {
+          "line": 2,
+          "page": null,
+          "text": "工作经历：参与企业知识库产品项目，协助整理访谈记录和业务需求，归纳用户反馈并补充需求清单。"
+        },
+        "question": "请核对个人责任范围，区分参与、协助和独立承担。"
+      },
+      {
+        "kind": "scope_unclear",
+        "evidence": {
+          "line": 4,
+          "page": null,
+          "text": "技能：在同事指导下使用SQL检查知识条目的缺失值和重复记录。需求方案和上线验收由产品负责人签字确认。"
+        },
+        "question": "请核对个人责任范围，区分参与、协助和独立承担。"
+      }
+    ],
+    "untrusted_instruction_lines": [],
+    "cannot_promise": [
+      "岗位待确认的薪资、工作安排和职责",
+      "录用、面试通过或最终待遇",
+      "简历未写明的技能、成果或个人责任"
+    ]
+  }
+}

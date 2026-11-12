@@ -1,0 +1,28 @@
+{
+  "name": "recruiting-bots-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "login": "npm run build && node dist/src/jobs/login.js",
+    "demo": "npm run build && node --env-file-if-exists=.env.local-recruiting scripts/demo.mjs",
+    "job:local": "npm run build && node --env-file-if-exists=.env.local-recruiting dist/src/jobs/local-cli.js job",
+    "call:local": "npm run build && node --env-file-if-exists=.env.local-recruiting dist/src/jobs/local-cli.js call",
+    "test": "npm run build && node --test dist/tests/local-files.test.js"
+  },
+  "dependencies": {
+    "@openai/codex": "0.167.0",
+    "@openai/codex-sdk": "0.167.0",
+    "ajv": "8.18.0",
+    "fflate": "0.8.3",
+    "pdfjs-dist": "6.5.438"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "typescript": "5.9.3"
+  }
+}

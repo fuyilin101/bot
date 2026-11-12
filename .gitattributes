@@ -1,0 +1,2 @@
+# Preserve the SHA-256-bound sample guide byte for byte.
+samples/reference/job/03_call_guide.md -text

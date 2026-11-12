@@ -1,0 +1,125 @@
+{
+  "package_id": "CALLPKG-CBC7CE7BF2408E31F9A9A8BA",
+  "request_id": "CALLREQ-CBC7CE7BF2408E31F9A9A8BA",
+  "job_id": "JOB-D6E8FFAD9230996A",
+  "job_version": 1,
+  "job_package_id": "JOBPKG-EF06F886F8E80DE7218F9080",
+  "cv_id": "CV-CBC7CE7BF2408E31F9A9A8BA",
+  "generated_at": "2026-11-12T10:17:49.604Z",
+  "template_version": "R1-call-v3",
+  "candidate_summary": [
+    {
+      "line": 2,
+      "page": 1,
+      "text": "工作经历：在模拟企业知识库项目中独立负责需求设计与上线验收。",
+      "verification": "CV自述，尚待电话核对"
+    },
+    {
+      "line": 3,
+      "page": 1,
+      "text": "项目经历：组织研发和测试联调，整理功能验收检查项及发布计划。",
+      "verification": "CV自述，尚待电话核对"
+    },
+    {
+      "line": 4,
+      "page": 1,
+      "text": "上线后收集了使用反馈。简历未列出效果指标、验收依据和最终结果。",
+      "verification": "CV自述，尚待电话核对"
+    }
+  ],
+  "requirements": [
+    {
+      "level": "hard",
+      "text": "必须独立负责需求分析与上线验收",
+      "index": 0,
+      "status": "clarify",
+      "evidence": {
+        "line": 2,
+        "page": 1,
+        "text": "工作经历：在模拟企业知识库项目中独立负责需求设计与上线验收。"
+      },
+      "verification": "尚待电话核对",
+      "question": "简历自述独立负责。您亲自作了哪些决策？以什么标准验收，查看了哪些效果指标，最终结果怎样确认？"
+    },
+    {
+      "level": "preferred",
+      "text": "有SQL经验优先",
+      "index": 1,
+      "status": "not_mentioned",
+      "evidence": null,
+      "verification": "尚待电话核对",
+      "question": "CV 未提供“有SQL经验优先”的直接证据。您是否有相关经历？如有，请说明具体工作、时间和个人责任。"
+    }
+  ],
+  "call_outline": {
+    "contact_reason": "围绕企业知识库产品经理核对简历中的相关工作经历",
+    "opening": "您好，我想就一个企业知识库产品经理机会与您沟通，方便用十分钟核对相关经历和求职安排吗？",
+    "recruiter_supplied_job": {
+      "title": "企业知识库产品经理",
+      "company": null,
+      "company_industry": null,
+      "location": "北京",
+      "salary_text": null,
+      "source_references": [
+        {
+          "message_id": "local-D6E8FFAD9230996A",
+          "sent_at": "1794478621594"
+        }
+      ]
+    },
+    "priority_questions": [
+      {
+        "question": "简历自述独立负责。您亲自作了哪些决策？以什么标准验收，查看了哪些效果指标，最终结果怎样确认？",
+        "purpose": "简历自述独立负责，需核对硬性要求“必须独立负责需求分析与上线验收”涉及的实际决策权和结果。",
+        "verification_criteria": "记录一项由候选人亲自作出的决策、实际验收依据、效果指标和结果来源。缺少的部分逐项标为待核实。",
+        "requirement_index": 0
+      },
+      {
+        "question": "CV 未提供“有SQL经验优先”的直接证据。您是否有相关经历？如有，请说明具体工作、时间和个人责任。",
+        "purpose": "简历未提供加分项“有SQL经验优先”的直接证据，电话中补充这项信息。",
+        "verification_criteria": "记录一个具体场景、候选人亲自完成的事项和结果。回答仍缺少具体例子时，保留为待核实。",
+        "requirement_index": 1
+      },
+      {
+        "question": "您目前考虑机会时最关注哪些岗位条件？",
+        "purpose": "了解求职意向，核对岗位待确认事项。",
+        "verification_criteria": "请候选人区分必需条件和偏好，并把需要招聘方另行确认的事项单独记下。"
+      },
+      {
+        "question": "如愿意继续沟通，您的地点偏好、可沟通时间及到岗安排如何？",
+        "purpose": "确认后续联系和工作安排。",
+        "verification_criteria": "复述候选人确认的地点、后续沟通时段和预计到岗时间，仍未确定的安排留待确认。"
+      }
+    ],
+    "expected_result": "记录候选人对岗位相关经历的补充、求职意向及后续安排，供人工判断。"
+  },
+  "risks": {
+    "job_pending": [
+      "公司",
+      "招聘方行业",
+      "部门",
+      "薪资范围",
+      "薪资周期或币种",
+      "薪资月数",
+      "经验要求",
+      "学历要求"
+    ],
+    "cv_clarifications": [
+      {
+        "kind": "scope_unclear",
+        "evidence": {
+          "line": 2,
+          "page": 1,
+          "text": "工作经历：在模拟企业知识库项目中独立负责需求设计与上线验收。"
+        },
+        "question": "请核对个人责任范围，区分参与、协助和独立承担。"
+      }
+    ],
+    "untrusted_instruction_lines": [],
+    "cannot_promise": [
+      "岗位待确认的薪资、工作安排和职责",
+      "录用、面试通过或最终待遇",
+      "简历未写明的技能、成果或个人责任"
+    ]
+  }
+}
