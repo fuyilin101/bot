@@ -3,7 +3,13 @@ import { getDocument } from "pdfjs-dist/legacy/build/pdf.mjs";
 import { checkCvText, CvInputError, cvLines, type CvLimits, type CvLine } from "./cv-input.js";
 
 const { bytes, limits } = workerData as { bytes: Uint8Array; limits: CvLimits };
-globalThis.fetch = async () => { throw new Error("cv_network_disabled"); };
+// pdf.js may call fetch. Deny it. defineProperty keeps the Node 24 fetch type, which has more
+// members than the plain function that a direct assignment accepts.
+Object.defineProperty(globalThis, "fetch", {
+  configurable: true,
+  writable: true,
+  value: async () => { throw new Error("cv_network_disabled"); },
+});
 const loading = getDocument({ data: bytes, enableXfa: false, useSystemFonts: false, useWasm: false,
   disableFontFace: true, useWorkerFetch: false, stopAtErrors: true, verbosity: 0 });
 try {
